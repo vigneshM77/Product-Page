@@ -1,0 +1,164 @@
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+/* .img-part{
+  width: 50%;
+} */
+.img-part img {
+  width:550px;
+  height:650px;
+}
+
+.auth-form {
+  width:35%;
+  height: 100%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.auth-form h1{
+  text-align: center;
+  
+}
+ b{
+  margin-left: 46%;
+  font-size: 20px;
+ }
+.auth-form h3 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.auth-form .form-group {
+  margin-bottom: 15px;
+  /* margin-top: 10px; */
+}
+
+/* .auth-form button {
+   width: 80%;
+  margin-left: 55px;
+  padding: 10px;
+  margin-top: 10px; 
+font-size: 20px;
+color: black;
+border: none;
+    
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  
+} */
+/* .btn {
+  background-color: #89d8d3;
+background-image: linear-gradient(315deg, #89d8d3 0%, #03c8a8 74%);
+  border: none;
+  z-index: 1;
+} */
+/* .btn:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  border-radius: 5px;
+   background-color: #4dccc6;
+background-image: linear-gradient(315deg, #4dccc6 0%, #96e4df 74%);
+  box-shadow:
+   -7px -7px 20px 0px #fff9,
+   -4px -4px 5px 0px #fff9,
+   7px 7px 20px 0px #0002,
+   4px 4px 5px 0px #0001;
+  transition: all 0.3s ease;
+} */
+/* .btn:hover {
+  color: #fff;
+} */
+/* .btn:hover:after {
+  top: 0;
+  height: 100%;
+}
+.btn:active {
+  top: 2px;
+} */
+.form-check label{
+  font-weight: 600;
+  font-size: 20px;
+}
+ .tab2 :hover{
+    border-bottom: 5px solid black;
+}
+.tab1:hover {
+  border-bottom: 5px solid black;
+}
+.rounded-circle{
+  color: green;
+  background-color: aquamarine;
+}
+.group{
+  color: orangered;
+  background-color: orange;
+}
+.cart{
+  color: blueviolet;
+  background-color:lightcyan;
+}
+.profile{
+  color: cadetblue;
+  background-color:turquoise
+}
+.addbtn{
+  background-color: blueviolet !important;
+  border: none !important;
+}
+.fw-bolder:hover{
+      background-color: rgb(198, 164, 229);
+      box-shadow: 2px 2px 5px 0px;
+}
+.card:hover{
+  background-color:lightgray;
+}
+.editbtn{
+  background-color: blueviolet !important;
+}
+.buttons button:hover{
+  background-color: lightgray;
+}
+.product-container{
+  width:100%;
+  height: 730px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://img.freepik.com/free-vector/abstract-geometric-wireframe-background_52683-59421.jpg?t=st=1725333241~exp=1725336841~hmac=ccceb0b95f90f3fab29592642756bfba8a50037d754f4935d07bcddfffacc8f1&w=996);
+}
+.Form-control{
+  width: 45% !important;
+  margin: auto;
+  border: 1px solid rgb(138, 137, 137);
+  padding:50px;
+}
+.create-btn{
+  display: flex;
+  gap: 30px;
+}
+.Form-control:hover{
+  box-shadow: 0 0 5px lightblue, 0 0 25px lightskyblue, 0 0 50px rgb(166, 231, 231), 0 0 100px lightblue,
+  0 0 200px lightskyblue;
+cursor: pointer;
+}
